@@ -13,13 +13,13 @@ Ce projet vise à analyser des tweets pour déterminer leur **sentiment** :
 
 Le pipeline complet inclut :
 
-✔️ Nettoyage et préparation des tweets
-✔️ Prétraitement linguistique (stopwords, lemmatisation, racinisation…)
-✔️ Vectorisation TF-IDF
-✔️ Construction d'un pipeline sklearn
-✔️ Classification via **RandomForestClassifier**
-✔️ Évaluation (accuracy, f1-score…)
-✔️ Visualisations (wordcloud, histogrammes, distributions)
+- ✔️ Nettoyage et préparation des tweets
+- ✔️ Prétraitement linguistique (stopwords, lemmatisation, racinisation…)
+- ✔️ Vectorisation TF-IDF
+- ✔️ Construction d'un pipeline sklearn
+- ✔️ Classification via **RandomForestClassifier**
+- ✔️ Évaluation (accuracy, f1-score…)
+- ✔️ Visualisations (wordcloud, histogrammes, distributions)
 
 Dataset utilisé :
 👉 **Tweets Airlines Sentiment Dataset** (14 640 tweets)
@@ -87,9 +87,9 @@ def clean_text(text):
 
 ### 🔹 2. Prétraitement des variables numériques & catégorielles
 
-✔️ **Numériques** → Imputation KNN + Normalisation
-✔️ **Catégorielles** → OneHotEncoding
-✔️ **Texte** → Pipeline TF-IDF
+- ✔️ **Numériques** → Imputation KNN + Normalisation
+- ✔️ **Catégorielles** → OneHotEncoding
+- ✔️ **Texte** → Pipeline TF-IDF
 
 Pipeline :
 
